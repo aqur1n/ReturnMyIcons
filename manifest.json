@@ -1,0 +1,27 @@
+{
+    "name": "Return My Icons!",
+    "description": "Вернет статический контент на сайте ютубе.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+
+    "declarative_net_request": {
+        "rule_resources": [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules/rules.json"
+        }]
+    },
+
+    "host_permissions": [
+        "*://*.youtube.com/*",
+        "*://yt3.ggpht.com/*",
+        "*://yt4.ggpht.com/*"
+    ],
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+  
+    "icons": {
+        "128": "images/128.png"
+    }
+  }
