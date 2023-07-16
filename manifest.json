@@ -1,7 +1,7 @@
 {
     "name": "Return My Icons!",
     "description": "Вернет статический контент на ютубе.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 3,
 
     "declarative_net_request": {
